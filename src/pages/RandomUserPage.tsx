@@ -13,7 +13,7 @@ export default function RandomUserPage() {
   const generateBtnOnClick = async () => {
     setIsLoading(true);
     
-    if(genAmount == 0){
+    if(genAmount <= 0){
       setNotZero(false);
       return;
     }else{
