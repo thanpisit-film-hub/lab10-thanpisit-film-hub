@@ -24,7 +24,7 @@ export default function Sidebar({ userName, type }: SidebarProps) {
       </div>
       <div>
         <p className="text-white">
-          {userName} :{type}
+          {userName} : {type}
         </p>
       </div>
     </aside>
